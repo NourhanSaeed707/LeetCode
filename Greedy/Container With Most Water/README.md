@@ -10,3 +10,4 @@ else
   right --;
 so i can keep the heighest verticale line so i can get the max area of water.
 and i will stop if left == right.
+Time Complexity:O(n)
