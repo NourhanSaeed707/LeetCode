@@ -1,4 +1,3 @@
-
 /*
 // Definition for a Node.
 class Node {
@@ -16,22 +15,25 @@ public:
         : val(_val), left(_left), right(_right), next(_next) {}
 };
 */
+
 class Solution {
 public:
     Node* connect(Node* root) {
+        if(!root) return root;
         queue<Node*> q;
         q.push(root);
-        while(!q.empty()){
+        while(!q.empty())
+        {
             int n = q.size();
-            Node* prev = NULL;
-            while(n--){
-                Node* temp = q.front();
+            Node *prev = nullptr;
+            for(int i = 0; i < n; i++)
+            {
+                Node* cur = q.front();
                 q.pop();
-                if(temp->left) q.push(temp->left);
-                if(temp->right) q.push(temp->right);
-                if(prev) prev->next = temp;
-                prev = temp;
-                
+                if(cur->left) q.push(cur->left);
+                if(cur->right) q.push(cur->right);
+                if(prev) prev->next = cur;
+                prev = cur;
             }
         }
         return root;
