@@ -14,7 +14,6 @@ class Solution {
 public:
     vector<vector<int>> res;
     vector<int> v;
-    stack<int> bottomBFS;
     queue<TreeNode*> q;
     void BFS(TreeNode* root){
         int level = 0;
