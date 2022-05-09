@@ -1,12 +1,12 @@
 //in preorderTraversal (we visit root then left nodes then right nodes).
 class Solution {
-    ArrayList inorder = new ArrayList<>();
-    public List<Integer> inorderTraversal(TreeNode root) {
+    ArrayList preorder = new ArrayList<>();
+    public List<Integer> preorderTraversal(TreeNode root) {
          if(root != null){
-            inorder.add(root.val);
-            inorderTraversal(root.left);
-            inorderTraversal(root.right);
+            preorder.add(root.val);
+            preorderTraversal(root.left);
+            preorderTraversal(root.right);
         }
-        return inorder;
+        return preorder;
     }
 }
