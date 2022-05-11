@@ -42,11 +42,13 @@ void merge(vector<int> &arr, int low, int high, int mid) {
             j++;
         }
     }
+   // to make sure that we take all elements and sorted it.
     while (i <= mid) {
         c[k] = arr[i];
         k++;
         i++;
     }
+   // to make sure that we take all elements and sorted it.
     while (j <= high) {
         c[k] = arr[j];
         k++;
