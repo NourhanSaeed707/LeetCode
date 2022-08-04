@@ -9,7 +9,6 @@
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        ListNode * tail = new ListNode(-1);
         ListNode * p = head;
         unordered_set<ListNode*> sets;
         while(true){
