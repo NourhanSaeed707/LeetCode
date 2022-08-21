@@ -1,18 +1,6 @@
 
 #include <iostream>
-#include <map>
-#include <list>
-#include <vector>
-#include <stack>
-#include <queue>  
-#include <unordered_set>
-#include <unordered_map>
-#include<cmath>
 #include<algorithm>
-#include <iterator> 
-#include <set> 
-#include <deque>
-#include <string>
 using namespace std;
 
 // Number of vertices in the graph
