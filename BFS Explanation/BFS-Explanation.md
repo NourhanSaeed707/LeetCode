@@ -5,7 +5,7 @@
 - Time complexity of BFS
 
 
-O(|E| + |V|) where |V| and |E| is the cardinality of set of vertices and edges respectively.
+   O(|E| + |V|) where |V| and |E| is the cardinality of set of vertices and edges respectively.
 
 ## BFS example
 - Let's see how the Breadth First Search algorithm works with an example. We use an undirected graph with 5 vertices.
