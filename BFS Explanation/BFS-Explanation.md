@@ -1,7 +1,10 @@
 # What is BFS?
 - BFS stands for  **Breadth First Search**. It is also known as **level order traversal**. The **Queue data structure** is used for the Breadth First Search traversal. When we use the BFS algorithm for the traversal in a graph, we can consider any node as a root node. **Breadth First Search** goes wide.
-- 
+
+
 - Time complexity of BFS
+
+
 O(|E| + |V|) where |V| and |E| is the cardinality of set of vertices and edges respectively.
 
 ## BFS example
