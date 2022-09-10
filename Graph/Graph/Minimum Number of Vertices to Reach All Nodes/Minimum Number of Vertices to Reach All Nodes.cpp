@@ -1,4 +1,7 @@
-
+/*
+here in this problem we count each node the incoming vertex get into it and save these counts in vector,
+and the node that has 0 count that mean no node get into it so it mean it is one of min shortest path to visit all nodes.
+*/
 class Solution {
 public:
     vector<int> findSmallestSetOfVertices(int n, vector<vector<int>>& edges) {
