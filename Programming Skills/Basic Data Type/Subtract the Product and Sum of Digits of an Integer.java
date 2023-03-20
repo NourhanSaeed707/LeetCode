@@ -9,6 +9,6 @@ class Solution {
            prod *= res;
            n /= 10;
         }
-        return (int)prod - sum;
+        return (int)(prod-sum);
     }
 }
